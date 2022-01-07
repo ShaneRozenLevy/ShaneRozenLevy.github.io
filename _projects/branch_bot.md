@@ -17,8 +17,7 @@ category: Soft Robotics
     A video of the tethered version of branch bot crawling horizontally, vertically, and on branches.
 </div>
 
-### Associated Publication:
 <div class="publications">
-  <h2>selected publications</h2>
-  {% bibliography -f papers -q @*[selected=true]* %}
+  <h2>Associated Publication</h2>
+  {% bibliography -f papers -q @*[project=branch_bot]* %}
 </div>
