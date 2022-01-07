@@ -20,5 +20,5 @@ category: Soft Robotics
 ### Associated Publication:
 <div class="publications">
   <h2>selected publications</h2>
-  {% bibliography -f papers -q @*[project=branchbot]* %}
+  {% bibliography -f papers -q @*[selected=true]* %}
 </div>
