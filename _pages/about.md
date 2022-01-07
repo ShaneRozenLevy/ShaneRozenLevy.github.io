@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD Student at <a href="https://kodlab.seas.upenn.edu/">Kod*Lab</a><a href="https://www.grasp.upenn.edu/">GRASP Lab</a>. <a href="https://www.seas.upenn.edu/">School of Engineering and Applied Science</a>. <a href="https://www.upenn.edu/">University of Pennsylvania</a>. 
+description: PhD Student at <a href="https://kodlab.seas.upenn.edu/">Kod*Lab</a> . <a href="https://www.grasp.upenn.edu/">GRASP Lab</a> . <a href="https://www.seas.upenn.edu/">School of Engineering and Applied Science</a> . <a href="https://www.upenn.edu/">University of Pennsylvania</a>. 
 
 profile:
   align: right
