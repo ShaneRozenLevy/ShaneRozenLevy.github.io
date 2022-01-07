@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of  projects.
 nav: true
-display_categories: [work, fun]
+display_categories: [Kod*Lab, Soft Robotics, Legacy Projects]
 horizontal: false
 ---
 <div class="projects">
