@@ -2,14 +2,14 @@
 layout: page
 title: Tail Energized Hopping with Jerboa
 description: replicating previous controllers on Jerboa
-img: assets/img/jerboa.jpg
+img: assets/img/jerboa.JPG
 importance: 1
 category: Kod*Lab
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/jerboa.jpg title: "jerboa" class: "img-fluid rounded z-depth-1" %}
+        {% responsive_image path: assets/img/jerboa.JPG title: "jerboa" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
