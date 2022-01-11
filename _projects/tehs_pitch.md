@@ -20,7 +20,7 @@ can't function without its tail, we can learn about different ways to take
 advantage of core actuation in ways that can be applied to spined quadrupeds.
 
 
-The goal of this work is to replicate the previous work done by Avik De on Jerboa.
+To begin my work on I Jerboa I replicated the previous work done by Avik De.
 To start I implemented a pitch unlocked tail energized gait on the boom.
 
 <div class="row">

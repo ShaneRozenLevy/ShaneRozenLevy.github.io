@@ -23,7 +23,7 @@ as a tool since we traditionally avoid optimization based techniques.
 
 
 To start with we used Drake and DIRCON to design a pipeline for creating new
-jumping behaviors. We started simple with jumping straight up.
+jumping behaviors. The first behavior we tested was jumping mostly straight up.
  <div class="row">
      <div class="col-sm mt-3 mt-md-0">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sQydj9rh58E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -45,7 +45,7 @@ Before finally exploring different mode sequences with a bounding jump
     </div>
 </div>
 
-While trajectory optimization has enabled very impressive results, the resulting 
+While trajectory optimization has enabled very impressive results in the literatures, the resulting 
 nonlinear programs are very difficult to get working well, leading to the work being
 part science, and part art.
 
