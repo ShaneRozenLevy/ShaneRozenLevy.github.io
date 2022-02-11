@@ -14,6 +14,7 @@ shifted to creating an SDK which allowed for communication at 1kHz with the moto
 and the ability to communicate with the robot from a laptop. This project 
 served as an opportunity for me to explore modern C++, concurrency, and realtime computing.
 The resulting SDK can be found here: https://github.com/KodlabPenn/kodlab_mjbots_sdk
+<a href="https://mjbots.com/"/>
 
 The kodlab_mjbots_sdk has a few key key features added to the 
 pi3_hat library developed by mjbots: https://github.com/mjbots/pi3hat
