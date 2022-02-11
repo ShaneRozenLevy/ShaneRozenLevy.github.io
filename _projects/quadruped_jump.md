@@ -3,7 +3,7 @@ layout: page
 title: Agile Jumping with a 12 dof Quadruped
 description: Using Drake & DIRCON to design agile behaviors for a quadruped
 img: assets/img/quadruped.png
-importance: 2
+importance: 3
 category: Kod*Lab
 ---
 
