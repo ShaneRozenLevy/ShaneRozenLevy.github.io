@@ -8,7 +8,8 @@ category: Legacy Projects
 ---
 
 The goal of this project was to use direct collocation to allow a simulated RC car to make a u-turn and to parallel park. 
-The code was written in Matlab and can be found here: https://github.com/ShaneRozenLevy/RC_CarTrajOpt
+The code was written in Matlab and can be found here: 
+ <a href="https://github.com/ShaneRozenLevy/RC_CarTrajOpt">https://github.com/ShaneRozenLevy/RC_CarTrajOpt</a>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
