@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tail Energized Hopping with Jerboa
-description: replicating previous controllers on Jerboa
+description: replicating previous work on Jerboa
 img: assets/img/jerboa.JPG
 importance: 1
 category: Kod*Lab
@@ -20,8 +20,8 @@ can't function without its tail, we can learn about different ways to take
 advantage of core actuation in ways that can be applied to spined quadrupeds.
 
 
-To begin my work on I Jerboa I replicated the previous work done by Avik De.
-To start I implemented a pitch unlocked tail energized gait on the boom.
+To begin my work on, Jerboa I replicated the previous work done by Avik De by 
+ implementing a pitch unlocked tail energized gait on the boom.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -29,7 +29,7 @@ To start I implemented a pitch unlocked tail energized gait on the boom.
 </div>
 
 Next I worked on using the tail to stabilize roll. In the following video I drop
-the robot and let the tail reorient the robot while also reaching a position
+the robot and let the tail reorient the robot while the tail also reaches a positions 
 that sets the tail up to be used for hopping.
 
  <div class="row">
