@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://shanerozenlevy.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Shane  Rozen-Levy
 
 
-  | Page not found
+  | Kod*Lab Mjbots SDK
 
 </title>
 <meta name="description" content="Shane's portfolio
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://shanerozenlevy.github.io/404.html">
+<link rel="canonical" href="https://shanerozenlevy.github.io/projects/kodlab_mjbots_sdk/">
 
 
 <!-- Dark Mode -->
@@ -168,12 +168,45 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Kod*Lab Mjbots SDK</h1>
+    <p class="post-description">Developing an opensource SDK for creating dynamic legged machines using the Mjbots motor controllers</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://shanerozenlevy.github.io/">here</a>.</p>
+    <p>The goal of this project was to find an open source alternative to commercially
+available high performance BLDC motor driver + control frameworks. After discovering
+<a href="https://mjbots.com/" target="_blank" rel="noopener noreferrer">Mjbots</a> which satisfied the hardware needs, the goal
+shifted to creating an SDK which allowed for communication at 1kHz with the motors, logging,
+and the ability to communicate with the robot from a laptop. This project 
+served as an opportunity for me to explore modern C++, concurrency, and realtime computing.
+The resulting SDK can be found here: 
+<a href="https://github.com/KodlabPenn/kodlab_mjbots_sdk" target="_blank" rel="noopener noreferrer">https://github.com/KodlabPenn/kodlab_mjbots_sdk</a></p>
+
+<p>The kodlab_mjbots_sdk’s main features are:</p>
+
+<ol>
+  <li>Cross compiling support from ubuntu 20.04 to Raspberry pi</li>
+  <li>Integration with NYU realtime_tools library:<a href="https://github.com/machines-in-motion/real_time_tools" target="_blank" rel="noopener noreferrer">https://github.com/machines-in-motion/real_time_tools</a>
+for better realtime performance</li>
+  <li>Integration with LCM (<a href="https://lcm-proj.github.io/" target="_blank" rel="noopener noreferrer">https://lcm-proj.github.io/</a>) for remote logging and remote input to the robot</li>
+  <li>The <code class="language-plaintext highlighter-rouge">MjbotsControlLoop</code> object which handles the structure of the control loop for
+the easy creation of new behaviors</li>
+  <li>The <code class="language-plaintext highlighter-rouge">MjbotsRobotInterface</code> which provides a convenient interface for communicating with any number
+of moteus motor controllers at 1 kHz</li>
+</ol>
+
+<p>In order to test the SDK we used it to develop a simple demo hopper. The
+source code for the demo hopper can be found here:
+ <a href="https://github.com/KodlabPenn/kodlab_mjbots_sdk/blob/master/examples/leg_example.cpp/" target="_blank" rel="noopener noreferrer">https://github.com/KodlabPenn/kodlab_mjbots_sdk/blob/master/examples/leg_example.cpp</a></p>
+<div class="row">
+     <div class="col-sm mt-3 mt-md-0">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9TqnH6Hkhok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </div>
+</div>
+
+<p>Going forward I aim to add support for limb level control to the <code class="language-plaintext highlighter-rouge">MjbotsRobotInterface</code>
+and allow for sending PD commands to the motors in addition to just torques.</p>
+
 
   </article>
 

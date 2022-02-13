@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=https://shanerozenlevy.github.io/" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Shane  Rozen-Levy
 
 
-  | Page not found
+  | Agile Jumping with a 12 dof Quadruped
 
 </title>
 <meta name="description" content="Shane's portfolio
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://shanerozenlevy.github.io/404.html">
+<link rel="canonical" href="https://shanerozenlevy.github.io/projects/quadruped_jump/">
 
 
 <!-- Dark Mode -->
@@ -168,12 +168,58 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Agile Jumping with a 12 dof Quadruped</h1>
+    <p class="post-description">Using Drake &amp; DIRCON to design agile behaviors for a quadruped</p>
   </header>
 
   <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://shanerozenlevy.github.io/">here</a>.</p>
+    <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <picture>
+    
+    <source media="(max-width: 480px)" srcset="/assets/resized/quadruped-480x345.png"></source>
+    
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/quadruped.png" title="12 dof quadruped">
+</picture>
+
+    </div>
+</div>
+
+<p>In this project we explored applying trajectory optimization to enabled a 12-dof quadruped to 
+jump. By using trajectory optimization we would understand how different designs
+and gait sequences would effect a robot’s ability to do agile maneuvers.
+This work was conducted with Diego Caporale.</p>
+
+<p>This project also served as an opportunity of Kod*Lab to evaluate trajectory optimization
+as a tool since we traditionally avoid optimization based techniques.</p>
+
+<p>To start with we used Drake and DIRCON to design a pipeline for creating new
+jumping behaviors. The first behavior we tested was jumping mostly straight up.</p>
+<div class="row">
+     <div class="col-sm mt-3 mt-md-0">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sQydj9rh58E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </div>
+</div>
+
+<p>Before moving to jumping a longer distance forward and also optimizing for minimum energy.</p>
+
+<div class="row">
+     <div class="col-sm mt-3 mt-md-0">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/el5e5tmCsys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </div>
+</div>
+
+<p>Before finally exploring different mode sequences with a bounding jump</p>
+<div class="row">
+     <div class="col-sm mt-3 mt-md-0">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8wWl00YvjMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </div>
+</div>
+
+<p>While trajectory optimization has enabled very impressive results in the literatures, the resulting 
+nonlinear programs are very difficult to get working well, leading to the work being
+part science, and part art.</p>
+
 
   </article>
 
